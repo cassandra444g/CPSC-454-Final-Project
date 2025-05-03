@@ -13,6 +13,7 @@ services:
     volumes:
       - ./app:/app
       - ./data:/data
+      - ./output:/output
 
   spark-worker-1:
     image: bitnami/spark:latest

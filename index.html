@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>E-commerce Metrics Dashboard</h1>
+
+    <div class="button-section">
+      <button onclick="runSparkJob()">Run Spark Job</button>
+    </div>
+
+    <div class="metrics-section">
+      <h2>📊 Monthly Revenue</h2>
+      <table id="monthly-sales">
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Revenue</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
